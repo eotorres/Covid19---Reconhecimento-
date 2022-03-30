@@ -36,17 +36,16 @@
 <p>Você deve criar uma pasta e adicionar o nome de dataset , dentro dela extriar os zips com_mascara e sem_mascara. Caso queira, pode adicionar mais imagem assim o modelo passará a ter mais recurso de treino assim o desempenho do machine learnig e a execução mais precisa de nosso face recognition com atributo de máscaras.</p>
 
 # Executando o trainer:
-<p>Após ter todas as Lib's instaladas basta rodar o arquivo trainer.py, ele irá treinar as imagens da sua pasta dataset, quando mais processamento de execução melhor a margem do treino</p>
+<p>Após ter todas as Lib's instaladas basta rodar o arquivo script_treinando_modelo.py, ele irá treinar as imagens da sua pasta dataset, quando mais processamento de execução melhor a margem do treino</p>
 
 # Executando o detector de imagens:
 <p>Após concluido o treino e salvo o arquivo -mask_detector.model-  na pasta /detectores você já pode iniciar suas análises de imagem.</p>
 
 # Executando o detector com sistema de camera:
-<p>Após concluido o treino e salvo o arquivo -mask_detector.model-  na pasta /detectores você já pode iniciar suas análises de imagem da camera ou de videos, basta abrir o arquivo - detectar_mascaras_camera.py - e ele ira detectar automaticamente.</p>
+<p>Após concluido o treino e salvo o arquivo -mask_detector.model-  na pasta /detectores você já pode iniciar suas análises de imagem da camera ou de videos, basta abrir o arquivo - script_detectar_mascaras_com_camera_webcam.py - e ele ira detectar automaticamente.</p>
 
    
  # Tempo de execução:
- <p>O tempo de execução de todo processo e qualidade varia de maquina para maquina, este script usa duas formas para fazer seu processo, ou uso da Memoria Ram ou uso da GPU. Para acelerar o processo aconselho uso de GPU porém ira se comportar tranquilamente com uso da memoria ram.
-
+ <p>O tempo de execução de todo processo e qualidade varia de maquina para maquina, então avaliar qual melhor se enquadra com seus recursos e executar, caso preferir, tente executar pelo colab.</p>
  
 
