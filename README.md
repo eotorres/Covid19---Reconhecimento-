@@ -1,6 +1,6 @@
 
 
-<h2 align="center">Detector de Mascara | Covid-19 Deep Machine Learning</h2>
+<h2 align="center">Detector de Mascara Covid-19 </h2>
 <h3>Sistema de detecção facial que reconhece o uso ou não de mascaras!</h3>
 <p>Este script foi desenvolvido para detecção através de reconhecimento facial, machine learning e deep learning.</p>
 
