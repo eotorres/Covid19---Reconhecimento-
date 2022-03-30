@@ -2,7 +2,7 @@
 
 <h2 align="center">Detector de Mascara | Covid-19 |Face Recognition | Deep Machine Learning</h2>
 <h3>Sistema de detecção facial que reconhece o uso ou não de mascaras!</h3>
-<p>Este script foi desenvolvido para detecção ou não de mascaras através de reconhecimento facial, machine learning e deep learning. Esta inteligencia artificial conta com o poder de treino feito pelo usuario, ou seja, quanto mais dataset's(imagens) e fases de treino passadas pelo trainer melhor será o reconhecimento!</p>
+<p>Este script foi desenvolvido para detecção através de reconhecimento facial, machine learning e deep learning.</p>
 
 # Requisitos:
 - Python 3.7 
@@ -33,7 +33,8 @@
 
 
 # Dataset de imagens:
-<p>Você deve criar uma pasta e adicionar o nome de dataset , dentro dela extriar os zips com_mascara e sem_mascara. Caso queira, pode adicionar mais imagem assim o modelo passará a ter mais recurso de treino assim o desempenho do machine learnig e a execução mais precisa de nosso face recognition com atributo de máscaras.</p>
+<p>Você deve criar uma pasta e adicionar o nome de dataset , dentro dela extriar os zips com_mascara e sem_mascara. Caso queira, pode adicionar mais imagem assim o modelo passará a ter mais recurso de treino assim o desempenho do machine learnig e a execução mais precisa de nosso face recognition com atributo de máscaras.
+Esta inteligencia artificial conta com o poder de treino feito pelo usuario, ou seja, quanto mais dataset's(imagens) e fases de treino passadas pelo trainer melhor será o reconhecimento!</p>
 
 # Executando o trainer:
 <p>Após ter todas as Lib's instaladas basta rodar o arquivo script_treinando_modelo.py, ele irá treinar as imagens da sua pasta dataset, quando mais processamento de execução melhor a margem do treino</p>
