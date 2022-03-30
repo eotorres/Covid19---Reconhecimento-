@@ -5,7 +5,7 @@
 <p>Este script foi desenvolvido para detecção ou não de mascaras através de reconhecimento facial, machine learning e deep learning. Esta inteligencia artificial conta com o poder de treino feito pelo usuario, ou seja, quanto mais dataset's(imagens) e fases de treino passadas pelo trainer melhor será o reconhecimento!</p>
 
 # Requisitos:
-- Python3.7 (não testado em outros)
+- Python 3.7 
 - Tensorflow
 - Keras
 - Numpy
@@ -15,7 +15,7 @@
 - h5py
 - Matplotlib
 
-# Instalações previas das libs que cumprem os requisitos para windows10:<br>
+# Instalações previas das bibliotecas<br>
 --> Tensorflow:
 <code> pip install --upgrade tensorflow</code><br>
 -->Keras: 
@@ -33,20 +33,18 @@
 
 
 # Dataset de imagens:
-<p>Este script conta com um dataset pronto com 690 pessoas com mascaras e 686 imagens de pessoas sem mascaras, você pode melhorar este dataset ou criar seu proprio dataset. Dataset's sempre são criados com imagens "positivas" e "negativas", onde positivas são oque queremos detectar e negativas tudo q não queremos detectar, estes dataset's passam pelo trainer (trainer.py) o qual é responsável por gerar o "modelo" para nossa rede neural para o sistema de reconhecimento, portanto quanto mais imagens dentro do dataset e quantidade de treinos em cima delas melhor o desempenho do machine learnig e a execução mais precisa de nosso face recognition com atributo de máscaras.</p>
+<p>Você deve criar uma pasta e adicionar o nome de dataset , dentro dela extriar os zips com_mascara e sem_mascara. Caso queira, pode adicionar mais imagem assim o modelo passará a ter mais recurso de treino assim o desempenho do machine learnig e a execução mais precisa de nosso face recognition com atributo de máscaras.</p>
 
 # Executando o trainer:
-<p>Após ter todas as Lib's instaladas basta rodar o arquivo trainer.py, ele irá treinar as imagens da sua pasta dataset, aconselho que aumente a quantidade de imagens e a quantidade de treinos, para isto basta adicionar mais imagens nas pastas com e sem mascaras e no arquivo 'trainer.py' na linha 26 - quantidade_treinos-  definir no minimo para 30, aconselho 100x o processo.</p>
+<p>Após ter todas as Lib's instaladas basta rodar o arquivo trainer.py, ele irá treinar as imagens da sua pasta dataset, quando mais processamento de execução melhor a margem do treino</p>
 
 # Executando o detector de imagens:
-<p>Após concluido o treino e salvo o arquivo -mask_detector.model-  na pasta /detectores você já pode iniciar suas análises de imagem, basta abrir o arquivo - detectar_mascaras_imagem.py - e na linha 19, - imagem = cv2.imread('exemplos/1.png') -  trocar a imagem pela sua e iniciar o script detector de imagens!</p>
+<p>Após concluido o treino e salvo o arquivo -mask_detector.model-  na pasta /detectores você já pode iniciar suas análises de imagem.</p>
 
 # Executando o detector com sistema de camera:
-<p>Após concluido o treino e salvo o arquivo -mask_detector.model-  na pasta /detectores você já pode iniciar suas análises de imagem da camera ou de videos, basta abrir o arquivo - detectar_mascaras_camera.py - e ele ira detectar automaticamente! Caso queira usar uma camera externa ou até mesmo seu celular como webcam usando o apk DroidCam basta ir na linha 67, - camera = 0 -  trocar o valor '0' pelo Endereço de IP de sua camera ou do Aplicativo DroidCam (ex: 'http://192.168.0.4:4747/mjpegfeed'), este adicional 'mjpegfeed' que ajuda a sua camera do celular usando DroidCam APK a ser reconhecido pelo Python. Sim este script aceita também cameras de vigilancia, basta por o IP e PORTA da camera! </p>
+<p>Após concluido o treino e salvo o arquivo -mask_detector.model-  na pasta /detectores você já pode iniciar suas análises de imagem da camera ou de videos, basta abrir o arquivo - detectar_mascaras_camera.py - e ele ira detectar automaticamente.</p>
 
-# Editando:
-<p>Todos arquivos editaveis estão com este material, bem como todo seu código esta todo comentado para facil compreensão Aconselho uso do trainer.py em uma maquina potente como as maquinas gratuitas da Google Colab, onde você tem gratuitamente 12GB RAM, 12GB GPU, 100GB HDD e um Processador Xeon Gratuitamente além de não precisar instalar as lib's, pois elas já vem instaladas por padrão nas maquinas gratuitas disponiveis no Google Colab!</p>
-    
+   
  # Tempo de execução:
  <p>O tempo de execução de todo processo e qualidade varia de maquina para maquina, este script usa duas formas para fazer seu processo, ou uso da Memoria Ram ou uso da GPU. Para acelerar o processo aconselho uso de GPU porém ira se comportar tranquilamente com uso da memoria ram.
 
