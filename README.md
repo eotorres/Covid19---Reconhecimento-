@@ -33,11 +33,10 @@
 
 
 # Dataset de imagens:
-<p>Você deve criar uma pasta e adicionar o nome de dataset , dentro dela extriar os zips com_mascara e sem_mascara. Caso queira, pode adicionar mais imagem assim o modelo passará a ter mais recurso de treino assim o desempenho do machine learnig e a execução mais precisa de nosso face recognition com atributo de máscaras.
-Esta inteligencia artificial conta com o poder de treino feito pelo usuario, ou seja, quanto mais dataset's(imagens) e fases de treino passadas pelo trainer melhor será o reconhecimento!</p>
+<p>Você deve criar uma pasta e adicionar o nome de dataset , dentro dela extriar os zips com_mascara e sem_mascara. Caso queira, pode adicionar mais imagem assim o modelo passará a ter mais recurso de treino assim o desempenho do machine learnig e a execução mais precisa de nosso face recognition com atributo de máscaras.</p>
 
 # Executando o trainer:
-<p>Após ter todas as Lib's instaladas basta rodar o arquivo script_treinando_modelo.py, ele irá treinar as imagens da sua pasta dataset, quando mais processamento de execução melhor a margem do treino</p>
+<p>Após ter todas as bibliotecas instaladas basta rodar o arquivo script_treinando_modelo.py, ele irá treinar as imagens da sua pasta dataset, quando mais  (imagens incluidas) no dataset e varios processamentos de treino melhor será o retorno.</p>
 
 # Executando o detector de imagens:
 <p>Após concluido o treino e salvo o arquivo -mask_detector.model-  na pasta /detectores você já pode iniciar suas análises de imagem.</p>
