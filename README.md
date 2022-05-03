@@ -15,22 +15,6 @@
 - h5py
 - Matplotlib
 
-# Instalações previas das bibliotecas<br>
---> Tensorflow:
-<code> pip install --upgrade tensorflow</code><br>
--->Keras: 
-<code>pip install keras</code><br>
---> Numpy:
-<code>pip install numpy scipy</code><br>
---> Scikit-learn:
-<code>pip install scikit-learn</code><br>
---> Pillow:
-<code>pip install pillow</code><br>
---> h5py:
-<code>pip install h5py</code><br>
---> Matploitlib:
-<code>pip install matplotlib</code><br>
-
 
 # Dataset de imagens:
 <p>Você deve criar uma pasta e adicionar o nome de dataset , dentro dela extriar os zips com_mascara e sem_mascara. Caso queira, pode adicionar mais imagem assim o modelo passará a ter mais recurso de treino assim o desempenho do machine learnig e a execução mais precisa de nosso face recognition com atributo de máscaras.</p>
